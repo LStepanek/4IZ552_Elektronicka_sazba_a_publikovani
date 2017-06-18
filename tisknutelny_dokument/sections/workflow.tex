@@ -6,7 +6,7 @@
 
 Zpracování\index{analýza} textu přirozeného jazyka patří mezi úlohy oblasti
 \textit{\underline{n}atural \underline{l}anguage \underline{p}rocessing}
-(NLP)\index{processing!natural language processing}, kam lze v širším slova smyslu
+(NLP)\index{zpracování (processing)!natural language processing}, kam lze v širším slova smyslu
 řadit kromě zpracování textů
 i práci s netextovými záznamy daného jazyka.
 
@@ -35,7 +35,7 @@ jak ukazuje obrázek~\ref{pipeline_fig}.
   }
     edge[pil, bend left=0] (sentence_splitting);
   \node[punkt, below=of sentence_splitting] (text_processing) {%
-    preprocessing textu
+    předzpracování textu
   };
   \node[punkt, below=of helsinki_corpora, opacity=0, text opacity=0] (%
     sentence_splitting_dummy) {rozdělení korpusu na věty}
@@ -44,11 +44,11 @@ jak ukazuje obrázek~\ref{pipeline_fig}.
     tokenizace vět na slova
   };
   \node[punkt, below=of sentence_splitting, opacity=0, text opacity=0] (%
-  text_processing_dummy) {preprocessing textu}
+  text_processing_dummy) {předzpracování textu}
     edge[pil, bend left=0] (tokenization);
   \node[punkt, below=of tokenization] (words_removing) {%
-    odstranění stop slov a vulgarismů,
-    číslic a krátkých slov
+    odstranění stop slov a~vulgarismů,
+    číslic a~krátkých slov
   };
   \node[punkt, below=of text_processing, opacity=0, text opacity=0] (%
     tokenization_dummy) {tokenizace vět na slova}
@@ -56,7 +56,7 @@ jak ukazuje obrázek~\ref{pipeline_fig}.
   \node[punkt, below=of words_removing] (n_gramming) {$n$-gramming};
   \node[punkt, below=of tokenization, opacity=0, text opacity=0] (%
     words_removing_dummy%
-  ) {odstranění stop slov a vulgarismů, číslic a krátkých slov}
+  ) {odstranění stop slov a~vulgarismů, číslic a~krátkých slov}
     edge[pil, bend left=0] (n_gramming);
 \end{tikzpicture}
 \caption{Schéma (zjednodušené) asynchronních úloh během zpracování textu %
@@ -100,7 +100,7 @@ Korpusy je poté možné dohromady jednotně předzpracovat.
 Bloky textů korpusů jsou nejdříve rozděleny na věty, a to podle určité
 heuristiky (viz dále).
 
-Dále je text tvořený větami v rámci preprocessingu\index{processing!preprocessing} očištěn
+Dále je text tvořený větami v rámci předzpracování\index{zpracování (processing)!předzpracování (preprocessing)} očištěn
 o některé nadbytečné znaky (především interpunkci\index{interpunkce});
 v závěru této fáze jsou korpusy\index{korpus} tvořeny
 oddělenými větami, které tvoří písmena malé a velké anglické abecedy
@@ -128,7 +128,7 @@ která nenesou příliš zajímavou informaci.
 
 Nyní by v případě flekčního jazyka\index{jazyk!flekční} následovala fáze
 lemmatizace\index{lemmatizace}, tedy snížení
-variability slov (konkrétně ohebných slovních) jejich převodem vždy na základní
+variability slov (konkrétně ohebných slovních druhů) jejich převodem vždy na základní
 tvar. Tato podúloha je však netriviální, naštěstí v případě anglického jazyka%
 \index{angličtina},
 jak již bylo zmíněno, ji lze vynechat bez významného snížení kvality

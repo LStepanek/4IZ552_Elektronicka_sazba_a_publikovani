@@ -12,13 +12,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Webscraping}{9}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Webscraping anglick\IeC {\'e} Wikipedie}{9}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1}Webscraping anglick\IeC {\'e} Wikipedie}{10}{subsubsection.3.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}D\IeC {\v e}len\IeC {\'\i } textu do v\IeC {\v e}t}{11}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Preprocessing textu}{12}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.4}P\IeC {\v r}edpracov\IeC {\'a}n\IeC {\'\i } textu}{12}{subsection.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5}Tokenizace}{12}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.5}Tokenizace}{13}{subsection.3.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.6}Odstran\IeC {\v e}n\IeC {\'\i } stop slov a dal\IeC {\v s}\IeC {\'\i }ch}{13}{subsection.3.6}
 \defcounter {refsection}{0}\relax 
@@ -36,7 +36,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7}Rejst\v {r}\'{\i }k}{20}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Apendix}{21}{section.8}
+\contentsline {section}{\numberline {8}P\IeC {\v r}\IeC {\'\i }loha}{21}{section.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.1}Procedura \texttt {\_\_main\_\_.R}}{21}{subsection.8.1}
 \defcounter {refsection}{0}\relax 

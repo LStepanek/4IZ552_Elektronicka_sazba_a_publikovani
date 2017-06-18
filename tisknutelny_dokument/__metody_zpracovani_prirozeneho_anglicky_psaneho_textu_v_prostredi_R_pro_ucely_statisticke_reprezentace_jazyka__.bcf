@@ -2128,10 +2128,13 @@
     <bcf:citekey order="5">Davies2010</bcf:citekey>
     <bcf:citekey order="6">Landow1993</bcf:citekey>
     <bcf:citekey order="7">Kytoo1996</bcf:citekey>
-    <bcf:citekey order="8">Chomsky1956</bcf:citekey>
-    <bcf:citekey order="9">Saif2014</bcf:citekey>
-    <bcf:citekey order="10">Chen1996</bcf:citekey>
-    <bcf:citekey order="11">Jurafsky2009</bcf:citekey>
+    <bcf:citekey order="8">DataScience</bcf:citekey>
+    <bcf:citekey order="9">CorpusLink</bcf:citekey>
+    <bcf:citekey order="10">Chomsky1956</bcf:citekey>
+    <bcf:citekey order="11">Saif2014</bcf:citekey>
+    <bcf:citekey order="12">SwearWordsLink</bcf:citekey>
+    <bcf:citekey order="13">Chen1996</bcf:citekey>
+    <bcf:citekey order="14">Jurafsky2009</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

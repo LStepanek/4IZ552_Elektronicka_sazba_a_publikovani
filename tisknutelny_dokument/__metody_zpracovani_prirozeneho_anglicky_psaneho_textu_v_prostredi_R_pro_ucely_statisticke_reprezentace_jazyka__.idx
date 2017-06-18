@@ -4,7 +4,7 @@
 \indexentry{\textsf{R}|hyperpage}{5}
 \indexentry{\textsf{R}|hyperpage}{5}
 \indexentry{anal\IeC {\'y}za|hyperpage}{6}
-\indexentry{processing!natural language processing|hyperpage}{6}
+\indexentry{zpracov\IeC {\'a}n\IeC {\'\i } (processing)!natural language processing|hyperpage}{6}
 \indexentry{korpus|hyperpage}{6}
 \indexentry{$n$-gram|hyperpage}{6}
 \indexentry{angli\IeC {\v c}tina|hyperpage}{6}
@@ -15,7 +15,7 @@
 \indexentry{korpus!helsinsk\IeC {\'y}|hyperpage}{7}
 \indexentry{webscraping|hyperpage}{7}
 \indexentry{Wikipedie|hyperpage}{7}
-\indexentry{processing!preprocessing|hyperpage}{7}
+\indexentry{zpracov\IeC {\'a}n\IeC {\'\i } (processing)!p\IeC {\v r}edzpracov\IeC {\'a}n\IeC {\'\i } (preprocessing)|hyperpage}{7}
 \indexentry{interpunkce|hyperpage}{7}
 \indexentry{korpus|hyperpage}{7}
 \indexentry{interpunkce|hyperpage}{7}
@@ -36,11 +36,10 @@
 \indexentry{lemmatizace|hyperpage}{7}
 \indexentry{aplikace!\texttt{the\_next\_word\_prediction}|hyperpage}{8}
 \indexentry{$n$-t\IeC {\'e} slovo|hyperpage}{8}
-\indexentry{processing!preprocessing|hyperpage}{9}
-\indexentry{processing|hyperpage}{9}
+\indexentry{zpracov\IeC {\'a}n\IeC {\'\i } (processing)!p\IeC {\v r}edzpracov\IeC {\'a}n\IeC {\'\i } (preprocessing)|hyperpage}{9}
 \indexentry{\IeC {\'u}loha!asynchronn\IeC {\'\i }|hyperpage}{9}
 \indexentry{\textsf{R}|hyperpage}{9}
-\indexentry{processing!natural language processing|hyperpage}{9}
+\indexentry{zpracov\IeC {\'a}n\IeC {\'\i } (processing)!natural language processing|hyperpage}{9}
 \indexentry{\textsf{R}|hyperpage}{9}
 \indexentry{\textsf{R}|hyperpage}{9}
 \indexentry{korpus|hyperpage}{9}
@@ -53,7 +52,7 @@
 \indexentry{\textsf{R}|hyperpage}{9}
 \indexentry{webscraping|hyperpage}{9}
 \indexentry{korpus|hyperpage}{9}
-\indexentry{Wikipedie|hyperpage}{9}
+\indexentry{Wikipedie|hyperpage}{10}
 \indexentry{angli\IeC {\v c}tina|hyperpage}{10}
 \indexentry{Wikipedie|hyperpage}{10}
 \indexentry{HTML|hyperpage}{10}
@@ -83,17 +82,17 @@
 \indexentry{regul\IeC {\'a}rn\IeC {\'\i } v\IeC {\'y}raz|hyperpage}{10}
 \indexentry{HTML!entita|hyperpage}{10}
 \indexentry{Wikipedie!tag|hyperpage}{10}
-\indexentry{\IeC {\v c}\IeC {\'\i }slovka|hyperpage}{10}
-\indexentry{link!webov\IeC {\'y}|hyperpage}{10}
-\indexentry{Wikipedie|hyperpage}{10}
-\indexentry{regul\IeC {\'a}rn\IeC {\'\i } v\IeC {\'y}raz|hyperpage}{10}
-\indexentry{link!intern\IeC {\'\i }|hyperpage}{10}
-\indexentry{Wikipedie|hyperpage}{10}
-\indexentry{webscraping|hyperpage}{11}
-\indexentry{link!outlink|hyperpage}{11}
+\indexentry{\IeC {\v c}\IeC {\'\i }slice|hyperpage}{10}
+\indexentry{odkaz!webov\IeC {\'y}|hyperpage}{11}
+\indexentry{Wikipedie|hyperpage}{11}
+\indexentry{regul\IeC {\'a}rn\IeC {\'\i } v\IeC {\'y}raz|hyperpage}{11}
+\indexentry{odkaz!intern\IeC {\'\i }|hyperpage}{11}
 \indexentry{Wikipedie|hyperpage}{11}
 \indexentry{webscraping|hyperpage}{11}
-\indexentry{link!outlink|hyperpage}{11}
+\indexentry{odkaz!intern\IeC {\'\i }|hyperpage}{11}
+\indexentry{Wikipedie|hyperpage}{11}
+\indexentry{webscraping|hyperpage}{11}
+\indexentry{odkaz!intern\IeC {\'\i }|hyperpage}{11}
 \indexentry{Wikipedie|hyperpage}{11}
 \indexentry{webscraping|hyperpage}{11}
 \indexentry{Wikipedie|hyperpage}{11}
@@ -104,24 +103,24 @@
 \indexentry{regul\IeC {\'a}rn\IeC {\'\i } v\IeC {\'y}raz|hyperpage}{11}
 \indexentry{$n$-gram|hyperpage}{11}
 \indexentry{regul\IeC {\'a}rn\IeC {\'\i } v\IeC {\'y}raz|hyperpage}{11}
-\indexentry{korpus|hyperpage}{11}
-\indexentry{link!outlink|hyperpage}{11}
+\indexentry{odkaz!intern\IeC {\'\i }|hyperpage}{11}
 \indexentry{graf!orientovan\IeC {\'y}|hyperpage}{11}
-\indexentry{link!farm sink|hyperpage}{11}
+\indexentry{odkaz!link farm sink|hyperpage}{11}
+\indexentry{korpus|hyperpage}{12}
 \indexentry{$n$-gram|hyperpage}{12}
 \indexentry{v\IeC {\'y}po\IeC {\v c}etn\IeC {\'\i } \IeC {\v c}as!line\IeC {\'a}rn\IeC {\'\i }|hyperpage}{12}
 \indexentry{sorting|hyperpage}{12}
 \indexentry{v\IeC {\'y}po\IeC {\v c}etn\IeC {\'\i } \IeC {\v c}as!neline\IeC {\'a}rn\IeC {\'\i }|hyperpage}{12}
-\indexentry{processing!preprocessing|hyperpage}{12}
+\indexentry{zpracov\IeC {\'a}n\IeC {\'\i } (processing)!p\IeC {\v r}edzpracov\IeC {\'a}n\IeC {\'\i } (preprocessing)|hyperpage}{12}
 \indexentry{regul\IeC {\'a}rn\IeC {\'\i } v\IeC {\'y}raz|hyperpage}{12}
 \indexentry{k\IeC {\'o}dov\IeC {\'a}n\IeC {\'\i }!UTF-8|hyperpage}{12}
 \indexentry{mezera!leading|hyperpage}{12}
 \indexentry{mezera!traling|hyperpage}{12}
 \indexentry{hashtag|hyperpage}{12}
-\indexentry{tokenizace|hyperpage}{12}
-\indexentry{processing!preprocessing|hyperpage}{12}
-\indexentry{processing!preprocessing|hyperpage}{12}
-\indexentry{tokenizace|hyperpage}{12}
+\indexentry{tokenizace|hyperpage}{13}
+\indexentry{zpracov\IeC {\'a}n\IeC {\'\i } (processing)!p\IeC {\v r}edzpracov\IeC {\'a}n\IeC {\'\i } (preprocessing)|hyperpage}{13}
+\indexentry{zpracov\IeC {\'a}n\IeC {\'\i } (processing)!p\IeC {\v r}edzpracov\IeC {\'a}n\IeC {\'\i } (preprocessing)|hyperpage}{13}
+\indexentry{tokenizace|hyperpage}{13}
 \indexentry{korpus|hyperpage}{13}
 \indexentry{slova|hyperpage}{13}
 \indexentry{$n$-gram|hyperpage}{13}
@@ -136,12 +135,13 @@
 \indexentry{slova!nevhodn\IeC {\'a}|hyperpage}{13}
 \indexentry{aplikace!\texttt{the\_next\_word\_prediction}|hyperpage}{13}
 \indexentry{slova!nevhodn\IeC {\'a}|hyperpage}{13}
+\indexentry{\IeC {\v c}\IeC {\'\i }slice|hyperpage}{13}
 \indexentry{$n$-gram|hyperpage}{13}
 \indexentry{$n$-gram|hyperpage}{13}
 \indexentry{korpus|hyperpage}{13}
 \indexentry{$n$-gram|hyperpage}{13}
-\indexentry{algoritmus|hyperpage}{13}
-\indexentry{korpus|hyperpage}{13}
+\indexentry{algoritmus|hyperpage}{14}
+\indexentry{korpus|hyperpage}{14}
 \indexentry{slova|hyperpage}{14}
 \indexentry{$n$-gram|hyperpage}{14}
 \indexentry{korpus|hyperpage}{14}
@@ -169,7 +169,7 @@
 \indexentry{$n$-gram|hyperpage}{14}
 \indexentry{aplikace!\texttt{the\_next\_word\_prediction}|hyperpage}{15}
 \indexentry{\IeC {\'u}loha!asynchronn\IeC {\'\i }|hyperpage}{15}
-\indexentry{processing|hyperpage}{15}
+\indexentry{zpracov\IeC {\'a}n\IeC {\'\i } (processing)|hyperpage}{15}
 \indexentry{korpus|hyperpage}{15}
 \indexentry{$n$-gram|hyperpage}{15}
 \indexentry{\textsf{R}|hyperpage}{15}
@@ -225,7 +225,7 @@
 \indexentry{\textsf{R}|hyperpage}{16}
 \indexentry{\texttt{Shiny}|hyperpage}{16}
 \indexentry{\textsf{R}|hyperpage}{16}
-\indexentry{HTML|hyperpage}{16}
+\indexentry{HTML|hyperpage}{17}
 \indexentry{HTML|hyperpage}{17}
 \indexentry{\texttt{Shiny}|hyperpage}{17}
 \indexentry{HTML|hyperpage}{17}

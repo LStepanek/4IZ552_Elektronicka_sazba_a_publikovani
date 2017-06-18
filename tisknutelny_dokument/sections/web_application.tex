@@ -6,7 +6,7 @@
 \index{aplikace!\texttt{the\_next\_word\_prediction}}
 
 Aplikace, podobně jako asynchronní úlohy\index{úloha!asynchronní} v rámci zpracování textu%
-\index{processing}
+\index{zpracování (processing)}
 korpusu\index{korpus} a~$n$-grammingu\index{$n$-gram}, byla vyvinuta v jazyce
 \textsf{R}\index{\textsf{R}} prostřednictvím
 \textsf{R}-kového balíčku \texttt{Shiny}\index{\texttt{Shiny}}.
@@ -103,21 +103,21 @@ Laplaceovým
 "add-one" vyhlazováním~\cite{Chen1996}\index{vyhlazování!Laplaceovo (add-one)}, kdy je každému $n$-gramu%
 \index{$n$-gram}
 (i chybějícímu, poprvé se objevivšímu až při uživatelově zadání) uměle
-zvýšena absolutní četnost ve frekvenčních tabulkách $n$-gramů\index{$n$-gram!tabulka četností} o $1$.
+zvýšena absolutní četnost ve frekvenčních tabulkách \mbox{$n$-gramů}\index{$n$-gram!tabulka četností} o~$1$.
 Obecně se tento přístup dnes již nedoporučuje. Známé je také
-např. Kneser-Neyovo vyhlazování~\cite{Jurafsky2009}\index{vyhlazování!Kneser-Neyovo},
+např. \mbox{Kneser-Neyovo} vyhlazování~\cite{Jurafsky2009}\index{vyhlazování!Kneser-Neyovo},
 které pro danou $(n - 1)$-člennou frázi\index{$(n - 1)$-členná fráze},
 jež zadává uživatel, prohledává
 i po nalezení dobré shody mezi posledními $n_{0}$ slovy uživatelovy fráze
 a~některým $(n_{0} + 1)$-gramem\index{$n$-gram} ještě všechny $(n_{0} + 1 - j)$-gramy pro
 $\forall j \in \{1, 2, \ldots, n_{0}\}$ a zkoumá četnosti dalších shodujících
-se $(n_{0} + 1 - j)$-gramů s posledními $(n_{0} - j)$ slovy uživatelovy
-fráze -- pokud by některá četnost některé $(n_{0} + 1 - j)$-gramu byla
+se $(n_{0} + 1 - j)$-gramů s~posledními $(n_{0} - j)$ slovy uživatelovy
+fráze -- pokud by některá četnost některého $(n_{0} + 1 - j)$-gramu byla
 výrazně vyšší než byla četnost nejčastějšího $(n_{0} + 1)$-gramu,
 jako uživatelem hledané slovo je (poněkud paradoxně) vráceno poslední
 slovo tohoto (i podstatně kratšího) $(n_{0} + 1 - j)$-gramu. Kneser-Neyovo
 vyhlazování\index{vyhlazování!Kneser-Neyovo} totiž řeší
-i kontextové zařazení některých frází.
+i~kontextové zařazení některých frází.
 
 
 \subsection{Komponenty aplikace}
@@ -149,11 +149,11 @@ Online lze aplikaci používat snadno na adrese\index{\texttt{Shiny}}
 
 \begin{center}
   \href{http://shiny.statest.cz:3838/the\_next\_word\_prediction/}{%
-    http://shiny.statest.cz:3838/the\_next\_word\_prediction/
+    http://shiny.statest.cz:3838/the\_next\_word\_prediction/%
   }.
 \end{center}
 
-Na první záložce \textit{Results} lze vložit vstupní frázi o délce 1-3 slov.
+Na první záložce \textit{Results} lze vložit vstupní frázi o délce 1-3 slov (či delší).
 Po kliknutí na tlačítko \textit{Predict the next word!}\index{$n$-té slovo!predikce} se v pravém
 panelu zobrazí slovo, které by mělo pravděpodobně jazykově následovat
 po vložené $(n - 1)$-členné frázi\index{$(n - 1)$-členná fráze}.
@@ -164,7 +164,8 @@ Popišme nyní detailněji jednotlivé části aplikace.
 
 \begin{labeling}{a b c d e f g h i j k}\index{\texttt{Shiny}}
 
-  \item [\texttt{ui.R}] Viz též~\ref{ui}. Název vyplývá ze zkratky
+  \item [\texttt{ui.R}] Viz též přiložený kód~\ref{ui} v kapitole~\ref{sec:Appendix}.
+  Název souboru je zkratkou
   \textit{\underline{u}ser \underline{i}nterface}. Definuje veškeré grafické
   a ovládací prvky aplikace, které lze napsat pomocí jazyka HTML\index{HTML}
   (\underline{H}yper\underline{T}ext \underline{M}arkup \underline{L}anguage).
@@ -175,19 +176,22 @@ Popišme nyní detailněji jednotlivé části aplikace.
   \index{HTML}
   -- balíček \texttt{Shiny}\index{\texttt{Shiny}} této syntaxi rozumí a v případě, že má uživatel
   znalost i značkovacího jazyka HTML\index{HTML}, je pak práce snazší přímo pomocí HTML,
-  nikoliv \textsf{R}-kových aliasů či wrapperů.
+  nikoliv \mbox{\textsf{R}-kových} aliasů či wrapperů.
   
-  \item [\texttt{server.R}] Viz též~\ref{server}. Jádro celé aplikace,
+  \item [\texttt{server.R}] Viz též přiložený kód~\ref{server} v kapitole~\ref{sec:Appendix}.
+  Jádro celé aplikace,
   obsahuje workhorse funkce, především implementaci backoff modelu výběru tak,
   jak je popsán ve stati~\ref{subsec:princip_aplikace}.
   
-  \item [slovníky $n$-gramů] Viz též tabulka~\ref{trigramy}\index{$n$-gram!trigram}
-  a komponenta~\ref{bigram}\index{$n$-gram!bigram}. Slovníky tvoří základ pro back-off vyhledávání%
+  \item [slovníky $n$-gramů] Viz též tabulku~\ref{trigramy}\index{$n$-gram!trigram}
+  a komponentu~\ref{bigram}\index{$n$-gram!bigram} v kapitole~\ref{sec:Appendix}.
+  Slovníky tvoří základ pro back-off vyhledávání%
   \index{$n$-té slovo!predikce!back-off}
   nejpravděpodobnějšího $n$-tého slova následujícího $(n - 1)$-člennou frázi%
   \index{$(n - 1)$-členná fráze}.
  
-  \item [\texttt{style.css}] Viz též~\ref{style}. Kaskádové styly\index{CSS}, které
+  \item [\texttt{style.css}] Viz též přiložený kód~\ref{style} v kapitole~\ref{sec:Appendix}.
+  Kaskádové styly\index{CSS}, které
   definují rozměry, barvy a další parametry některých prvků aplikace, především
   headeru.
 

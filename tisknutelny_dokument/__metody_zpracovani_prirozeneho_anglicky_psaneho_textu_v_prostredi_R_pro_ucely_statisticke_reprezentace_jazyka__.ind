@@ -18,7 +18,7 @@
     \subitem asynchronn\IeC {\'\i }, \hyperpage{9}, \hyperpage{15}, 
 		\hyperpage{18}
     \subitem synchronn\IeC {\'\i }, \hyperpage{18}
-  \item \IeC {\v c}\IeC {\'\i }slovka, \hyperpage{10}
+  \item \IeC {\v c}\IeC {\'\i }slice, \hyperpage{10}, \hyperpage{13}
   \item \IeC {\v c}len \textit{the}, \hyperpage{15, 16}
   \item \textsf{R}, \hyperpage{5}, \hyperpage{9, 10}, 
 		\hyperpage{15, 16}
@@ -26,7 +26,7 @@
 
   \indexspace
 
-  \item algoritmus, \hyperpage{7}, \hyperpage{10, 11}, \hyperpage{13}
+  \item algoritmus, \hyperpage{7}, \hyperpage{10, 11}, \hyperpage{14}
     \subitem greedy, \hyperpage{10}
     \subitem maximum aposteriori, \hyperpage{15, 16}
   \item anal\IeC {\'y}za, \hyperpage{6}
@@ -71,8 +71,8 @@
 
   \item k\IeC {\'o}dov\IeC {\'a}n\IeC {\'\i }
     \subitem UTF-8, \hyperpage{12}
-  \item korpus, \hyperpage{6, 7}, \hyperpage{9}, \hyperpage{11}, 
-		\hyperpage{13--15}, \hyperpage{18}
+  \item korpus, \hyperpage{6, 7}, \hyperpage{9}, \hyperpage{12--15}, 
+		\hyperpage{18}
     \subitem British National Corpus, \hyperpage{9}
     \subitem Corpus of Contemporary American English, \hyperpage{9}
     \subitem helsinsk\IeC {\'y}, \hyperpage{7}, \hyperpage{9}, 
@@ -81,11 +81,6 @@
   \indexspace
 
   \item lemmatizace, \hyperpage{6, 7}
-  \item link
-    \subitem farm sink, \hyperpage{11}
-    \subitem intern\IeC {\'\i }, \hyperpage{10}
-    \subitem outlink, \hyperpage{11}
-    \subitem webov\IeC {\'y}, \hyperpage{10}
 
   \indexspace
 
@@ -96,12 +91,15 @@
 
   \indexspace
 
+  \item odkaz
+    \subitem intern\IeC {\'\i }, \hyperpage{11}
+    \subitem link farm sink, \hyperpage{11}
+    \subitem webov\IeC {\'y}, \hyperpage{11}
+
+  \indexspace
+
   \item pravd\IeC {\v e}podobnost, \hyperpage{14, 15}, \hyperpage{18}
     \subitem odhad, \hyperpage{14, 15}
-  \item processing, \hyperpage{9}, \hyperpage{15}
-    \subitem natural language processing, \hyperpage{6}, \hyperpage{9}
-    \subitem preprocessing, \hyperpage{7}, \hyperpage{9}, 
-		\hyperpage{12}
 
   \indexspace
 
@@ -118,7 +116,7 @@
 
   \indexspace
 
-  \item tokenizace, \hyperpage{7}, \hyperpage{12, 13}
+  \item tokenizace, \hyperpage{7}, \hyperpage{13}
 
   \indexspace
 
@@ -137,7 +135,14 @@
   \indexspace
 
   \item webscraping, \hyperpage{7}, \hyperpage{9--11}
-  \item Wikipedie, \hyperpage{7}, \hyperpage{9--11}
+  \item Wikipedie, \hyperpage{7}, \hyperpage{10, 11}
     \subitem tag, \hyperpage{10}
+
+  \indexspace
+
+  \item zpracov\IeC {\'a}n\IeC {\'\i } (processing), \hyperpage{15}
+    \subitem natural language processing, \hyperpage{6}, \hyperpage{9}
+    \subitem p\IeC {\v r}edzpracov\IeC {\'a}n\IeC {\'\i } (preprocessing), 
+		\hyperpage{7}, \hyperpage{9}, \hyperpage{12, 13}
 
 \end{theindex}
